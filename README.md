@@ -1,5 +1,6 @@
 # docker
 
+```bash
 
 docker run --rm -it ubuntu /bin/bash
 
@@ -25,3 +26,5 @@ history
 docker commit -m 'Update'  -a 'Mike Chirico' 5541469e936e mchirico/kubectlutils
 
 docker push mchirico/kubectlutils:tagname
+
+```
